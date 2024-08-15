@@ -1,0 +1,15 @@
+{
+    "name": "typos-cli",
+    "private": true,
+    "version": "1.14.8",
+    "type": "module",
+    "scripts": {
+      "postinstall": "node install.js"
+    },
+    "bin": {
+      "typos": "./bin/typos"
+    },
+    "dependencies": {
+    }
+  }
+  

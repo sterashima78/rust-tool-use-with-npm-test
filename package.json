@@ -1,0 +1,11 @@
+{
+  "name": "rust-tool-use-with-npm-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "spell-check": "typos"
+  },
+  "devDependencies": {
+    "typos-cli": "workspace:*"
+  }
+}

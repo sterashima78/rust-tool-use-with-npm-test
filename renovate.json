@@ -1,0 +1,14 @@
+{
+    "regexManagers": [
+      {
+        "fileMatch": ["^packages/typos-cli/package.json$"],
+        "matchStrings": [
+          "\"version\": \"(?<currentValue>.*?)\""
+        ],
+        "extractVersionTemplate": "^v(?<version>.*)$",
+        "datasourceTemplate": "github-tags",
+        "packageNameTemplate": "crate-ci/typos"
+      }
+    ]
+  }
+  
